@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wx.novel.mapper.xml.NovelContentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wx.novel.entity.NovelContent">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="status" property="status" />
+        <result column="author" property="author" />
+        <result column="display_time" property="displayTime" />
+        <result column="section" property="section" />
+        <result column="ispay" property="ispay" />
+    </resultMap>
+
+</mapper>
